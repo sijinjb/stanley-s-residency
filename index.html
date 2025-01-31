@@ -37,6 +37,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
   </head>
 
   <body>
@@ -44,8 +46,8 @@
       class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
       id="ftco-navbar"
     >
-      <div class="container-fluid">
-        <!-- <img src="images/stanley_s_logo-removebg-preview.png" alt="" style="height: 100px;"> -->
+      <div class="container">
+        <img src="images/stanley_s_logo-removebg-preview.png" alt="" style="height: 75px;">
         <button
           class="navbar-toggler"
           type="button"
@@ -65,7 +67,7 @@
             <li class="nav-item">
               <a href="about.html" class="nav-link">About</a>
             </li>
-            
+
             <!-- <li class="nav-item"><a href="rooms.html" class="nav-link">Apartment Room</a></li> -->
             <li class="nav-item">
               <a href="blog.html" class="nav-link">Blog</a>
@@ -79,58 +81,63 @@
     </nav>
     <!-- END nav -->
     <!-- Sticky WhatsApp Icon -->
-	<a
-	href="https://wa.me/919037646534?text=Hello!%20I%20want%20to%20book%20a%20stay%20at%20Stanley's%20Residency."
-	target="_blank"
-	class="position-fixed"
-	style="
-	  bottom: 20px;
-	  right: 20px;
-	  background-color: #25d366;
-	  border-radius: 10%;
-	  padding: 10px 15px;
-	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-	  z-index: 9999;
-	  transition: transform 0.3s ease;
-	  position: relative;
-	  display: flex;
-	  align-items: center;
-	"
-  >
-	<i class="fab fa-whatsapp" style="color: white; font-size: 30px; margin-right: 10px;"></i>
-	<span style="color: white; font-size: 16px; font-weight: bold;">Chat With Us !</span>
-	<!-- Popup Text -->
-	<span
-	  class="badge badge-dark"
-	  style="
-		position: absolute;
-		bottom: 120%;
-		right: 50%;
-		transform: translateX(50%);
-		display: none;
-		font-size: 12px;
-		padding: 3px 10px;
-		background-color: #333;
-		color: white;
-		border-radius: 5px;
-	  "
-	>Support!</span>
-  </a>
-  
-  <!-- Inline JavaScript for Hover Effect -->
-  <script>
-	const whatsappLink = document.querySelector("a");
-	const popupText = whatsappLink.querySelector("span");
-  
-	whatsappLink.addEventListener("mouseenter", function () {
-	  popupText.style.display = "block";
-	});
-  
-	whatsappLink.addEventListener("mouseleave", function () {
-	  popupText.style.display = "none";
-	});
-  </script>
-  
+    <a
+      href="https://wa.me/919037646534?text=Hello!%20I%20want%20to%20book%20a%20stay%20at%20Stanley's%20Residency."
+      target="_blank"
+      class="position-fixed"
+      style="
+        bottom: 20px;
+        right: 20px;
+        background-color: #25d366;
+        border-radius: 10%;
+        padding: 10px 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        z-index: 9999;
+        transition: transform 0.3s ease;
+        position: relative;
+        display: flex;
+        align-items: center;
+      "
+    >
+      <i
+        class="fab fa-whatsapp"
+        style="color: white; font-size: 30px; margin-right: 10px"
+      ></i>
+      <span style="color: white; font-size: 16px; font-weight: bold"
+        >Chat With Us !</span
+      >
+      <!-- Popup Text -->
+      <span
+        class="badge badge-dark"
+        style="
+          position: absolute;
+          bottom: 120%;
+          right: 50%;
+          transform: translateX(50%);
+          display: none;
+          font-size: 12px;
+          padding: 3px 10px;
+          background-color: #333;
+          color: white;
+          border-radius: 5px;
+        "
+        >Support!</span
+      >
+    </a>
+
+    <!-- Inline JavaScript for Hover Effect -->
+    <script>
+      const whatsappLink = document.querySelector("a");
+      const popupText = whatsappLink.querySelector("span");
+
+      whatsappLink.addEventListener("mouseenter", function () {
+        popupText.style.display = "block";
+      });
+
+      whatsappLink.addEventListener("mouseleave", function () {
+        popupText.style.display = "none";
+      });
+    </script>
 
     <div
       class="hero-wrap js-fullheight"
@@ -176,118 +183,242 @@
     >
       <div class="container">
         <!-- Header Section -->
-
-        <!-- Why Choose Section -->
-        <div class="row justify-content-start">
-          <div class="col-md-10">
-            <div
-              class="card"
+<div>
+	<h2
+              class="text-center text-warning"
               style="
-                background: linear-gradient(to right, #41413d, #1d1d1d);
-                border-radius: 15px;
-                padding: 40px;
-                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-              "
-            >
-              <div class="col-md-12">
-                <h3
-                  class="text-warning"
-                  style="
-                    font-size: 32px;
-                    font-weight: bold;
-                    margin-bottom: 20px;
-                  "
-                >
-                  Why Choose Stanley’s Residency?
-                </h3>
-                <p style="font-size: 16px; color: white; line-height: 1.6">
-                  Stanley’s Residency stands out as the best rent-a-flat option
-                  in Kochi. Located near Amrita Hospital, we provide easy access
-                  to essential services, healthcare, and popular attractions.
-                </p>
-                <ul
-                  style="
-                    font-size: 16px;
-                    color: white;
-                    list-style-type: none;
-                    padding-left: 0;
-                  "
-                >
-                  <li style="margin-bottom: 10px">
-                    <strong>Flexibility:</strong> Rent a flat for even a single
-                    day or extend your stay according to your needs.
-                  </li>
-                  <li style="margin-bottom: 10px">
-                    <strong>Fully Furnished Flats:</strong> We offer a range of
-                    well-equipped flats catering to different preferences and
-                    budgets.
-                  </li>
-                  <li style="margin-bottom: 10px">
-                    <strong>Comfort & Convenience:</strong> Our flats are
-                    designed to meet the needs of solo travelers, families, and
-                    business professionals.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Flats in Kochi Section -->
-
-        <!-- For People Traveling to Kochi Section -->
-        <div class="row mt-5 justify-content-end">
-          <div class="col-md-10">
-            <div
-              class="card"
+                font-size: 50px;
+                color: white;
+                font-weight: 700;
+                font-family: 'font-family: ' Playfair Display;
+              ">
+              Welcome to Stanley’s Residency
+            </h2>
+            <p
+              class="text-center"
               style="
-                background: linear-gradient(to right, #41413d, #1d1d1d);
-                border-radius: 15px;
-                padding: 40px;
-                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-              "
-            >
-              <div class="col-md-12 text-left">
-                <h3
-                  class="text-warning"
-                  style="
-                    font-size: 32px;
-                    font-weight: bold;
-                    margin-bottom: 20px;
-                  "
-                >
-                  For People Traveling to Kochi
-                </h3>
-                <p style="font-size: 16px; color: white; line-height: 1.6">
-                  If you’re visiting Kochi for healthcare services at Amrita
-                  Hospital or exploring the vibrant city, Stanley’s Residency is
-                  your best choice.
-                </p>
-                <ul
-                  style="
-                    font-size: 16px;
-                    color: white;
-                    list-style-type: none;
-                    padding-left: 0;
-                  "
-                >
-                  <li style="margin-bottom: 10px">
-                    <strong>Convenient Location:</strong> Save time on
-                    commuting.
-                  </li>
-                  <li style="margin-bottom: 10px">
-                    <strong>Peaceful Ambiance:</strong> Relax in a serene
-                    environment after a busy day.
-                  </li>
-                  <li style="margin-bottom: 10px">
-                    <strong>Tailored Stays:</strong> Suitable for medical
-                    tourists, business travelers, and vacationers.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+                font-size: 16px;
+                color: white;
+                line-height: 1.8;
+                font-family: 'Poppins', sans-serif; ">
+              Experience the perfect blend of luxury and convenience at
+              Stanley’s Residency, located near Amrita Hospital, Ponekkara. We
+              offer air-conditioned, fully furnished 1BHK and 2BHK apartments
+              designed to meet all your needs.
+            </p>
+</div>
+     <!-- Combined Why Choose & For Travelers Section -->
+<div class="row justify-content-center">
+	<div class="col-md-10 mt-5">
+	  <div
+		class="card"
+		style="
+		  background: linear-gradient(to right, #41413d, #1d1d1d);
+		  border-radius: 15px;
+		  padding: 40px;
+		  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+		"
+	  >
+	  <div></div>
+		<div class="row">
+		  <!-- Left Section -->
+		  <div class="col-md-6 col-12 mb-4">
+			<h3
+			  class="text-warning"
+			  style="font-size: 32px; font-weight: bold; margin-bottom: 20px;"
+			>
+			  Why Choose Stanley’s Residency?
+			</h3>
+			<p style="font-size: 16px; color: white; line-height: 1.6">
+			  Stanley’s Residency stands out as the best rent-a-flat option in Kochi. 
+			  Located near Amrita Hospital, we provide easy access to essential services, 
+			  healthcare, and popular attractions.
+			</p>
+			<ul style="font-size: 16px; color: white; list-style-type: none; padding-left: 0;">
+			  <li style="margin-bottom: 10px">
+				<strong>Flexibility:</strong> Rent a flat for even a single day or extend your stay according to your needs.
+			  </li>
+			  <li style="margin-bottom: 10px">
+				<strong>Fully Furnished Flats:</strong> We offer a range of well-equipped flats catering to different preferences and budgets.
+			  </li>
+			  <li style="margin-bottom: 10px">
+				<strong>Comfort & Convenience:</strong> Our flats are designed to meet the needs of solo travelers, families, and business professionals.
+			  </li>
+			</ul>
+		  </div>
+  
+		  <!-- Right Section -->
+		  <div class="col-md-6 col-12">
+			<h3
+			  class="text-warning"
+			  style="font-size: 32px; font-weight: bold; margin-bottom: 20px;"
+			>
+			  For People Traveling to Kochi
+			</h3>
+			<p style="font-size: 16px; color: white; line-height: 1.6">
+			  If you’re visiting Kochi for healthcare services at Amrita Hospital or 
+			  exploring the vibrant city, Stanley’s Residency is your best choice.
+			</p>
+			<ul style="font-size: 16px; color: white; list-style-type: none; padding-left: 0;">
+			  <li style="margin-bottom: 10px">
+				<strong>Convenient Location:</strong> Save time on commuting.
+			  </li>
+			  <li style="margin-bottom: 10px">
+				<strong>Peaceful Ambiance:</strong> Relax in a serene environment after a busy day.
+			  </li>
+			  <li style="margin-bottom: 10px">
+				<strong>Tailored Stays:</strong> Suitable for medical tourists, business travelers, and vacationers.
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+
+  <section class="ftco-section" style="background-color: black">
+	<div class="container p-5" style="background-color: black">
+	  <div class="row no-gutters">
+		<!-- Image Section -->
+		<div class="col-md-6 wrap-about">
+		  <div
+			class="img img-2 mb-4"
+			style="
+			  background-image: url('images/stanley\'s\ residency.jpg');
+			  border-radius: 10px;
+			  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+			"
+		  ></div>
+		  
+		</div>
+		<!-- Features Section -->
+		<div class="col-md-6 wrap-about ftco-animate mt-5">
+		  <div class="heading-section">
+			<div class="pl-md-5">
+			  <h2
+				class="mb-2 text-warning"
+				style="font-size: 32px; font-weight: 700; font-family: 'Playfair Display"
+			  >
+				Our Facilities
+			  </h2>
+			</div>
+		  </div>
+		  <div class="pl-md-5">
+			<ul style="list-style-type: none; padding: 0">
+			  <li
+				style="
+				  display: flex;
+				  margin-bottom: 20px;
+				  align-items: center;
+				"
+			  >
+				<span
+				  style="font-size: 24px; color: #e63946; margin-right: 15px"
+				  >•</span
+				>
+				<p
+				  style="
+					margin: 0;
+					font-size: 15px;
+					color: white;
+					font-family: 'Poppins', sans-serif;
+				  "
+				>
+				  <strong>Fully Furnished Apartments:</strong> Complete with
+				  stylish interiors, a fully equipped kitchen, and all
+				  essential utensils.
+				</p>
+			  </li>
+			  <li
+				style="
+				  display: flex;
+				  margin-bottom: 20px;
+				  align-items: center;
+				"
+			  >
+				<span
+				  style="font-size: 24px; color: #e63946; margin-right: 15px"
+				  >•</span
+				>
+				<p
+				  style="
+					margin: 0;
+					font-size: 15px;
+					color: white;
+					font-family: 'Poppins', sans-serif;
+				  "
+				>
+				  <strong>Modern Appliances:</strong> Each unit includes a
+				  refrigerator, washing machine, and television with cable
+				  connectivity for your comfort.
+				</p>
+			  </li>
+			  <li
+				style="
+				  display: flex;
+				  margin-bottom: 20px;
+				  align-items: center;
+				"
+			  >
+				<span
+				  style="font-size: 24px; color: #e63946; margin-right: 15px"
+				  >•</span
+				>
+				<p
+				  style="
+					margin: 0;
+					font-size: 15px;
+					color: white;
+					font-family: 'Poppins', sans-serif;
+				  "
+				>
+				  <strong>Ample Parking Space:</strong> Spacious parking for
+				  residents and visitors.
+				</p>
+			  </li>
+			  <li
+				style="
+				  display: flex;
+				  margin-bottom: 20px;
+				  align-items: center;
+				"
+			  >
+				<span
+				  style="font-size: 24px; color: #e63946; margin-right: 15px"
+				  >•</span
+				>
+				<p
+				  style="
+					margin: 0;
+					font-size: 15px;
+					color: white;
+					font-family: 'Poppins', sans-serif;
+				  "
+				>
+				  <strong>Free WiFi:</strong> High-speed internet access for
+				  work, streaming, or staying connected.
+				</p>
+			  </li>
+			</ul>
+			<p
+			  style="
+				margin-top: 20px;
+				font-size: 15px;
+				color: white;
+				font-family: 'Poppins', sans-serif;
+			  "
+			>
+			  At Stanley’s Residency, we ensure a hassle-free and premium
+			  living experience. Whether for a short stay or long-term rental,
+			  <strong class="text-warning">book your apartment today</strong>
+			  and enjoy the best in class living!
+			</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
 
         <!-- Kochi Tour Packages Section -->
         <div class="row mt-5">
@@ -303,82 +434,68 @@
 
         <!-- Card Section for Places to Visit -->
         <div class="row">
-          <!-- Fort Kochi Card -->
-          <div class="col-md-4 mb-4">
-            <div class="card" style="border: none">
-              <img
-                src="images/Fort Kochi.jpeg"
-                class="card-img-top"
-                alt="Fort Kochi"
-                style="height: 350px; object-fit: cover"
-              />
-              <div
-                class="card-body"
-                style="background-color: #333; color: white"
-              >
-                <h5
-                  class="card-title text-warning"
-                  style="font-size: 24px; font-weight: bold"
-                >
-                  Fort Kochi
-                </h5>
-                <p class="card-text" style="font-size: 15px">
-                  Immerse yourself in the city’s colonial charm.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Marine Drive Card -->
-          <div class="col-md-4 mb-4">
-            <div class="card" style="border: none">
-              <img
-                src="images/Marine Drive Kochi,India.jpeg"
-                class="card-img-top"
-                alt="Marine Drive"
-                style="height: 350px; object-fit: cover"
-              />
-              <div
-                class="card-body"
-                style="background-color: #333; color: white"
-              >
-                <h5
-                  class="card-title text-warning"
-                  style="font-size: 24px; font-weight: bold"
-                >
-                  Marine Drive
-                </h5>
-                <p class="card-text" style="font-size: 15px">
-                  Enjoy scenic views along the backwaters.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Mattancherry Palace Card -->
-          <div class="col-md-4 mb-4">
-            <div class="card" style="border: none">
-              <img
-                src="images/mattanchery palace.jpeg"
-                class="card-img-top"
-                alt="Mattancherry Palace"
-                style="height: 350px; object-fit: cover"
-              />
-              <div
-                class="card-body"
-                style="background-color: #333; color: white"
-              >
-                <h5
-                  class="card-title text-warning"
-                  style="font-size: 24px; font-weight: bold"
-                >
-                  Mattancherry Palace
-                </h5>
-                <p class="card-text" style="font-size: 15px">
-                  Discover the rich history and culture of Kochi.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+			<!-- Fort Kochi Card -->
+			<div class="col-md-4 mb-4">
+			  <div class="card animated-card" style="border: none;">
+				<img src="images/Fort Kochi.jpeg" class="card-img-top" alt="Fort Kochi" style="height: 350px; object-fit: cover; border-radius: 10px;">
+				<div class="card-body" style="background-color: #333; color: white; text-align: center;">
+				  <h5 class="card-title text-warning" style="font-size: 24px; font-weight: bold;">Fort Kochi</h5>
+				  <p class="card-text" style="font-size: 15px;">Immerse yourself in the city’s colonial charm.</p>
+				</div>
+			  </div>
+			</div>
+		  
+			<!-- Marine Drive Card -->
+			<div class="col-md-4 mb-4">
+			  <div class="card animated-card" style="border: none;">
+				<img src="images/Marine Drive Kochi,India.jpeg" class="card-img-top" alt="Marine Drive" style="height: 350px; object-fit: cover; border-radius: 10px;">
+				<div class="card-body" style="background-color: #333; color: white; text-align: center;">
+				  <h5 class="card-title text-warning" style="font-size: 24px; font-weight: bold;">Marine Drive</h5>
+				  <p class="card-text" style="font-size: 15px;">Enjoy scenic views along the backwaters.</p>
+				</div>
+			  </div>
+			</div>
+		  
+			<!-- Mattancherry Palace Card -->
+			<div class="col-md-4 mb-4">
+			  <div class="card animated-card" style="border: none;">
+				<img src="images/mattanchery palace.jpeg" class="card-img-top" alt="Mattancherry Palace" style="height: 350px; object-fit: cover; border-radius: 10px;">
+				<div class="card-body" style="background-color: #333; color: white; text-align: center;">
+				  <h5 class="card-title text-warning" style="font-size: 24px; font-weight: bold;">Mattancherry Palace</h5>
+				  <p class="card-text" style="font-size: 15px;">Discover the rich history and culture of Kochi.</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <!-- Floating Animation CSS -->
+		  <style>
+			.animated-card {
+			  transition: transform 0.3s ease, box-shadow 0.3s ease;
+			  animation: float 3s infinite ease-in-out;
+			}
+		  
+			/* Hover Effect (Scaling) */
+			.animated-card:hover {
+			  transform: scale(1.05);
+			  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.2);
+			}
+		  
+			/* Floating Animation */
+			@keyframes float {
+			  0% { transform: translateY(0px); }
+			  50% { transform: translateY(-10px); }
+			  100% { transform: translateY(0px); }
+			}
+		  
+			/* Mobile Adjustments */
+			@media (max-width: 768px) {
+			  .animated-card {
+				animation: float 3s infinite ease-in-out;
+			  }
+			}
+		  </style>
+		  
 
         <!-- Book Your Stay Section -->
         <div class="row justify-content-center mt-5">
@@ -402,174 +519,9 @@
       </div>
     </section>
 
-    <section class="ftco-section" style="background-color: black">
-      <div class="container p-5" style="background-color: black">
-        <div class="row no-gutters">
-          <!-- Image Section -->
-          <div class="col-md-6 wrap-about">
-            <div
-              class="img img-2 mb-4"
-              style="
-                background-image: url('images/stanley\'s\ residency.jpg');
-                border-radius: 10px;
-                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-              "
-            ></div>
-            <h2
-              class="text-center text-warning"
-              style="
-                font-size: 26px;
-                color: white;
-                font-weight: 700;
-                font-family: 'font-family: ' Playfair Display;
-              "
-            >
-              Welcome to Stanley’s Residency
-            </h2>
-            <p
-              class="text-center"
-              style="
-                font-size: 15px;
-                color: white;
-                line-height: 1.8;
-                font-family: 'Poppins', sans-serif;
-              "
-            >
-              Experience the perfect blend of luxury and convenience at
-              Stanley’s Residency, located near Amrita Hospital, Ponekkara. We
-              offer air-conditioned, fully furnished 1BHK and 2BHK apartments
-              designed to meet all your needs.
-            </p>
-          </div>
-          <!-- Features Section -->
-          <div class="col-md-6 wrap-about ftco-animate mt-5">
-            <div class="heading-section">
-              <div class="pl-md-5">
-                <h2
-                  class="mb-2 text-warning"
-                  style="font-size: 32px; font-weight: 700; font-family: 'Playfair Display"
-                >
-                  Our Facilities
-                </h2>
-              </div>
-            </div>
-            <div class="pl-md-5">
-              <ul style="list-style-type: none; padding: 0">
-                <li
-                  style="
-                    display: flex;
-                    margin-bottom: 20px;
-                    align-items: center;
-                  "
-                >
-                  <span
-                    style="font-size: 24px; color: #e63946; margin-right: 15px"
-                    >•</span
-                  >
-                  <p
-                    style="
-                      margin: 0;
-                      font-size: 15px;
-                      color: white;
-                      font-family: 'Poppins', sans-serif;
-                    "
-                  >
-                    <strong>Fully Furnished Apartments:</strong> Complete with
-                    stylish interiors, a fully equipped kitchen, and all
-                    essential utensils.
-                  </p>
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    margin-bottom: 20px;
-                    align-items: center;
-                  "
-                >
-                  <span
-                    style="font-size: 24px; color: #e63946; margin-right: 15px"
-                    >•</span
-                  >
-                  <p
-                    style="
-                      margin: 0;
-                      font-size: 15px;
-                      color: white;
-                      font-family: 'Poppins', sans-serif;
-                    "
-                  >
-                    <strong>Modern Appliances:</strong> Each unit includes a
-                    refrigerator, washing machine, and television with cable
-                    connectivity for your comfort.
-                  </p>
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    margin-bottom: 20px;
-                    align-items: center;
-                  "
-                >
-                  <span
-                    style="font-size: 24px; color: #e63946; margin-right: 15px"
-                    >•</span
-                  >
-                  <p
-                    style="
-                      margin: 0;
-                      font-size: 15px;
-                      color: white;
-                      font-family: 'Poppins', sans-serif;
-                    "
-                  >
-                    <strong>Ample Parking Space:</strong> Spacious parking for
-                    residents and visitors.
-                  </p>
-                </li>
-                <li
-                  style="
-                    display: flex;
-                    margin-bottom: 20px;
-                    align-items: center;
-                  "
-                >
-                  <span
-                    style="font-size: 24px; color: #e63946; margin-right: 15px"
-                    >•</span
-                  >
-                  <p
-                    style="
-                      margin: 0;
-                      font-size: 15px;
-                      color: white;
-                      font-family: 'Poppins', sans-serif;
-                    "
-                  >
-                    <strong>Free WiFi:</strong> High-speed internet access for
-                    work, streaming, or staying connected.
-                  </p>
-                </li>
-              </ul>
-              <p
-                style="
-                  margin-top: 20px;
-                  font-size: 15px;
-                  color: white;
-                  font-family: 'Poppins', sans-serif;
-                "
-              >
-                At Stanley’s Residency, we ensure a hassle-free and premium
-                living experience. Whether for a short stay or long-term rental,
-                <strong class="text-warning">book your apartment today</strong>
-                and enjoy the best in class living!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  
 
-    <!-- <section class="ftco-intro" style="background-image: url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
+    <section class="ftco-intro" style="background-image: url(images/stanley\'s\ residency.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row justify-content-center">
@@ -580,7 +532,7 @@
 					</div>
 				</div>
 			</div>
-		</section> -->
+		</section>
 
     <section class="ftco-section" style="background-color: black">
       <div class="container">
@@ -724,7 +676,8 @@
                       transition: all 0.3s ease;
                       background-color: #444;
                       font-family: Arial, sans-serif;
-                    ">
+                    "
+                  >
                     What types of accommodations are available at Stanley’s
                     Residency?
                     <span
@@ -1021,76 +974,111 @@
       });
     </script>
 
-    <footer class="footer text-light py-5" style="background-color: black">
-      <div class="container">
-        <div class="row text-center">
-          <!-- Logo and Address Section -->
-          <div
-            class="col-md-6 col-lg-3 mb-4 d-flex flex-column align-items-center"
-          >
-            <h2 class="footer-heading">
-              <a href="#" class="logo">
-                <img
-                  src="images/stanley_s_logo-removebg-preview.png"
-                  alt="Stanley's Residency Logo"
-                  style="max-width: 180px; height: auto"
-                />
-              </a>
-            </h2>
-            <p class="text-white">
-              Welcome to Stanley's Residency, near Amrita Hospital, Ponekkara.
-            </p>
-            <p class="text-white">
-              <strong>📍 Address:</strong> Near Amrita Hospital, Ponekkara
-            </p>
-            <p class="text-white">
-              <strong>📞 Contact:</strong>
-              <a href="tel:+919037646534" class="text-light">+91 90376 46534</a
-              >,
-              <a href="tel:+919037646531" class="text-light">+91 90376 46531</a>
-            </p>
-
-            <h2 class="footer-heading mt-4 align-items-center">Follow Us</h2>
-            <ul
-              class="list-unstyled d-flex justify-content-center"
-              style="gap: 20px"
-            >
-              <li>
-                <a href="#" class="text-light" style="font-size: 1.5rem"
-                  ><i class="fa fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#" class="text-light" style="font-size: 1.5rem"
-                  ><i class="fa fa-facebook"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#" class="text-light" style="font-size: 1.5rem"
-                  ><i class="fa fa-instagram"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Follow Us Section -->
-          <!--  -->
-        </div>
-      </div>
-
-      <!-- Footer Bottom -->
-      <div class="w-100 mt-4 border-top py-3 text-center">
-        <div class="container">
-          <p class="mb-0">
-            &copy;
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-            Stanley's Residency | All Rights Reserved
-          </p>
-        </div>
-      </div>
-    </footer>
+<footer class="footer text-light py-5" style="background: #111; color: white;">
+	<div class="container">
+	  <div class="row text-center text-md-start">
+		<!-- Logo and Address Section -->
+		<div class="col-md-3 mb-4 d-flex flex-column align-items-center align-items-md-start">
+		  <a href="#">
+			<img src="images/stanley_s_logo-removebg-preview.png" alt="Stanley's Residency Logo" style="max-width: 180px; height: auto;">
+		  </a>
+		  <p class="mt-3 text-white">Welcome to Stanley's Residency, near Amrita Hospital, Ponekkara.</p>
+		  <p class="text-white"><strong>📍 Address:</strong> Near Amrita Hospital, Ponekkara</p>
+		  <p><strong>📞 Contact:</strong> 
+			<a href="tel:+919037646534" class="text-light">+91 90376 46534</a>, 
+			<a href="tel:+919037646531" class="text-light">+91 90376 46531</a>
+		  </p>
+		</div>
+  
+		<!-- Quick Links Section -->
+		<div class="col-md-3 mb-4">
+		  <h4 class="text-warning">Quick Links</h4>
+		  <ul class="list-unstyled mt-3">
+			<li><a href="index.html" class="footer-link">🏠 Home</a></li>
+			<li><a href="about.html" class="footer-link">📖 About</a></li>
+			<li><a href="blog.html" class="footer-link">📝 Blog</a></li>
+			<li><a href="contact.html" class="footer-link">📞 Contact</a></li>
+		  </ul>
+		</div>
+  
+		<!-- Follow Us Section -->
+		<!-- <div class="col-md-3 mb-4">
+		  <h4 class="text-warning">Follow Us</h4>
+		  <div class="d-flex justify-content-center justify-content-md-start mt-3" style="gap: 15px;">
+			<a  href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+			<a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+			<a href="#" class="social-icon"><i class="fa fa-instagram"></i></a>
+		  </div>
+		</div>
+   -->
+		<!-- Newsletter Subscription Section -->
+		<div class="col-md-3 mb-4">
+		  <h4 class="text-warning">Subscribe</h4>
+		  <p class="mt-3">Get updates on offers & new stays.</p>
+		  <form>
+			<input type="email" class="form-control mb-2 footer-input" placeholder="Enter your email">
+			<button class="btn btn-warning btn-sm w-100 footer-btn">Subscribe</button>
+		  </form>
+		</div>
+	  </div>
+	</div>
+  
+	<!-- Footer Bottom -->
+	<div class="w-100 mt-4 border-top py-3 text-center" style="background: #222;">
+	  <div class="container">
+		<p class="mb-0">&copy; <script>document.write(new Date().getFullYear());</script> Stanley's Residency | All Rights Reserved</p>
+	  </div>
+	</div>
+  </footer>
+  
+  <!-- Footer Styling -->
+  <style>
+	/* Quick Links Styling */
+	.footer-link {
+	  text-decoration: none;
+	  color: white;
+	  display: block;
+	  margin-bottom: 8px;
+	  transition: color 0.3s ease;
+	}
+	.footer-link:hover {
+	  color: #f0ad4e;
+	  transform: translateX(5px);
+	}
+  
+	/* Social Icons */
+	.social-icon {
+	  font-size: 1.8rem;
+	  color: white;
+	  text-decoration: none;
+	  transition: transform 0.3s ease, color 0.3s ease;
+	}
+	.social-icon:hover {
+	  color: #f0ad4e;
+	  transform: scale(1.2);
+	}
+  
+	/* Input Field */
+	.footer-input {
+	  border-radius: 5px;
+	  padding: 10px;
+	  background: #222;
+	  color: white;
+	  border: 1px solid #f0ad4e;
+	}
+  
+	/* Subscribe Button */
+	.footer-btn {
+	  font-weight: bold;
+	  background: linear-gradient(to right, #f0ad4e, #ff8008);
+	  border: none;
+	  transition: background 0.3s ease;
+	}
+	.footer-btn:hover {
+	  background: linear-gradient(to right, #ff8008, #f0ad4e);
+	}
+  </style>
+  
 
     <!-- loader -->
     <div id="ftco-loader" class="show fullscreen">
