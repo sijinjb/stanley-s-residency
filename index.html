@@ -21,7 +21,10 @@
 
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
   </head>
+  
   <body>
 		<!-- <div class="wrap " style="background-color: black;">
 			<div class="container" >
@@ -61,15 +64,38 @@
 	    </div>
 	  </nav>
     <!-- END nav -->
+<!-- Sticky WhatsApp Icon -->
+<a href="https://wa.me/919037646534?text=Hello!%20I%20want%20to%20book%20a%20stay%20at%20Stanley's%20Residency." target="_blank" class="position-fixed" style="bottom: 20px; right: 20px; background-color: #25D366; border-radius: 10%; padding: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3); z-index: 9999; transition: transform 0.3s ease; position: relative;">
+    <i class="fab fa-whatsapp" style="color: white; font-size: 40px;"></i>
+    <!-- Popup Text -->
+    <span class="badge badge-dark" style="position: absolute; bottom: 120%; right: 50%; transform: translateX(50%); display: none; font-size: 12px; padding: 3px 10px; background-color: #333; color: white; border-radius: 5px;">Support!</span>
+</a>
+
+<!-- Inline JavaScript for Hover Effect -->
+<script>
+    const whatsappLink = document.querySelector('a');
+    const popupText = whatsappLink.querySelector('span');
+
+    whatsappLink.addEventListener('mouseenter', function () {
+        popupText.style.display = 'block';
+    });
+
+    whatsappLink.addEventListener('mouseleave', function () {
+        popupText.style.display = 'none';
+    });
+</script>
+
+
+
 
 	<div class="hero-wrap js-fullheight" style="background-image: url('images/stanley\'s\ residency.jpg');" data-stellar-background-ratio="0.5" >
 		<div class="overlay"></div>
 		<div class="container" >
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
 				<div class="col-md-7 ftco-animate">
-					<h2 class="subheading">Welcome to Your Dream Vacation</h2>
-					<h1 class="mb-4" style="color: rgb(252, 250, 250);">Book Our Apartmentent for Your Perfect Getaway</h1>
-					<p class="text-white">Escape to the perfect vacation spot with comfortable accommodations and a seamless booking process.</p>
+					<h2 class="subheading">Welcome to Stanley’s Residency</h2>
+					<h1 class="mb-4" style="color: rgb(252, 250, 250); font-size: xx-large;">Book Our Apartmentent for Your Perfect Getaway</h1>
+					<p class="text-white">Your Ideal Rent-A-Flat Destination in Kochi, Near Amrita Hospital.</p>
 					<p>
 						<a href="https://wa.me/9190376 46534?text=Hello!%20I%20want%20to%20book%20a%20stay%20at%20Stanley's%20Residency." class="btn btn-warning" target="_blank">Book Now</a> 
 						<a href="tel: +91 90376 46534" class="btn btn-white">Contact Us</a>
@@ -79,136 +105,112 @@
 		</div>
 	</div>
 	  
-	  <section class="ftco-section ftco-services" style="background-color: black;">
-		<div class="container mt-2 " >
-		  <div class="row">
-			<div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
-			  <div class="d-block services-wrap text-center">
-				<div class="img" style="background-image: url(images/services-1.jpg);"></div>
-				<div class="media-body py-4 px-3 " >
-				  <h3 class="heading">Guided Tour of the Area</h3>
-				  <p>Explore the beauty of your vacation destination with a guided tour. Visit the best local spots and enjoy hidden gems.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
-			  <div class="d-block services-wrap text-center">
-				<div class="img" style="background-image: url(images/services-2.jpg);"></div>
-				<div class="media-body py-4 px-3">
-				  <h3 class="heading">Exclusive Accommodations</h3>
-				  <p>Relax in our beautiful, fully-equipped apartments designed for comfort and convenience. Enjoy every moment of your stay!</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
-			  <div class="d-block services-wrap text-center">
-				<div class="img" style="background-image: url(images/services-3.jpg);"></div>
-				<div class="media-body py-4 px-3">
-				  <h3 class="heading">24/7 Customer Support</h3>
-				  <p>Our team is always ready to assist you with any questions or requests. We make sure your vacation is hassle-free!</p>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </section>
-	  
-	  <section class="ftco-section" style="background-color: black">
-		<div class="container-fluid px-md-5" style="background-color: black">
-		  <div class="row justify-content-center pb-5 mb-3">
-			<div class="col-md-7 heading-section text-center">
-			  <h2 class="mb-4 text-white" style="font-size: 2.5rem; font-weight: 700; color: #fff; text-shadow: 2px 2px 10px rgba(0,0,0,0.3);">
-				Apartment Rooms
-			  </h2>
-			  <p style="font-size: 1.1rem; color: #ccc; text-shadow: 1px 1px 5px rgba(0,0,0,0.2);">
-				Experience the elegance of our modern and luxurious apartment rooms designed for comfort and convenience.
-			  </p>
-			</div>
-		  </div>
-		  <div class="row">
-			<div class="col-lg-6">
-			  <div class="room-wrap d-flex mb-4" style="box-shadow: 0 8px 20px rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden; transition: transform 0.3s ease;">
-				<a href="#" class="img" style="background-image: url('images/room-1.jpg'); width: 50%; background-size: cover; background-position: center;"></a>
-				<div class="half d-flex align-items-center p-4" style="background: linear-gradient(135deg, #3a3a3a 0%, #4e4e4e 100%); color: white;">
-				  <div class="text-center w-100">
-					<p class="star mb-2" style="font-size: 1.4rem;">
-					  <span class="fa fa-star text-warning"></span>
-					  <span class="fa fa-star text-warning"></span>
-					  <span class="fa fa-star text-warning"></span>
-					  <span class="fa fa-star text-warning"></span>
-					  <span class="fa fa-star text-warning"></span>
-					</p>
-					<h3 style="font-size: 2rem; font-weight: 700; text-shadow: 2px 2px 10px rgba(0,0,0,0.4);">Suite Room</h3>
-					<ul class="list-accomodation mb-4" style="list-style: none; padding: 0; color: #f0f0f0;">
-					  <li>Max: 3 Persons</li>
-					  <li>Size: 45 m²</li>
-					  <li>View: Sea View</li>
-					  <li>Bed: 1</li>
-					</ul>
-					<a href="room-single.html" class="btn btn-primary px-4 py-2" style="border-radius: 50px; background: #fff; color: #333; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: background 0.3s;">
-					  View Room Details
-					</a>
+	<section class="ftco-section" style="background-color: black; color: white; padding: 50px 0;">
+		<div class="container">
+			<!-- Header Section -->
+			
+			
+			<!-- Why Choose Section -->
+			<div class="row justify-content-start">
+				<div class="col-md-10">
+				  <div class="card" style="background: linear-gradient(to right, #4d4d2f, #1d1d1d); border-radius: 15px; padding: 40px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+					<div class="col-md-12">
+					  <h3 class="text-warning" style="font-size: 32px; font-weight: bold; margin-bottom: 20px;">Why Choose Stanley’s Residency?</h3>
+					  <p style="font-size: 16px; color: white; line-height: 1.6;">
+						Stanley’s Residency stands out as the best rent-a-flat option in Kochi. Located near Amrita Hospital, we provide easy access to essential services, healthcare, and popular attractions.
+					  </p>
+					  <ul style="font-size: 16px; color: white; list-style-type: none; padding-left: 0;">
+						<li style="margin-bottom: 10px;"><strong>Flexibility:</strong> Rent a flat for even a single day or extend your stay according to your needs.</li>
+						<li style="margin-bottom: 10px;"><strong>Fully Furnished Flats:</strong> We offer a range of well-equipped flats catering to different preferences and budgets.</li>
+						<li style="margin-bottom: 10px;"><strong>Comfort & Convenience:</strong> Our flats are designed to meet the needs of solo travelers, families, and business professionals.</li>
+					  </ul>
+					</div>
 				  </div>
 				</div>
 			  </div>
+			  
+	
+			<!-- Flats in Kochi Section -->
+		
+	
+			<!-- For People Traveling to Kochi Section -->
+			<div class="row mt-5 justify-content-end">
+				<div class="col-md-10">
+				  <div class="card" style="background: linear-gradient(to right, #4d4d2f, #1d1d1d); border-radius: 15px; padding: 40px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+					<div class="col-md-12 text-right">
+					  <h3 class="text-warning" style="font-size: 32px; font-weight: bold; margin-bottom: 20px;">For People Traveling to Kochi</h3>
+					  <p style="font-size: 16px; color: white; line-height: 1.6;">
+						If you’re visiting Kochi for healthcare services at Amrita Hospital or exploring the vibrant city, Stanley’s Residency is your best choice.
+					  </p>
+					  <ul style="font-size: 16px; color: white; list-style-type: none; padding-left: 0;">
+						<li style="margin-bottom: 10px;"><strong>Convenient Location:</strong> Save time on commuting.</li>
+						<li style="margin-bottom: 10px;"><strong>Peaceful Ambiance:</strong> Relax in a serene environment after a busy day.</li>
+						<li style="margin-bottom: 10px;"><strong>Tailored Stays:</strong> Suitable for medical tourists, business travelers, and vacationers.</li>
+					  </ul>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  
+	
+			<!-- Kochi Tour Packages Section -->
+			<div class="row mt-5">
+				<div class="col-md-12 text-center">
+					<h3 style="font-size: 28px; font-weight: bold; color: white;">Kochi Tour Packages & Places to Visit in Kochi</h3>
+					<p style="text-align: center; font-size: 18px; color: white;">
+						Make your stay memorable with Kochi’s enchanting attractions:
+					</p>
+				</div>
+			</div>
+	
+			<!-- Card Section for Places to Visit -->
+			<div class="row">
+				<!-- Fort Kochi Card -->
+				<div class="col-md-4 mb-4">
+					<div class="card" style="border: none;">
+						<img src="images/Fort Kochi.jpeg" class="card-img-top" alt="Fort Kochi" style="height: 350px; object-fit: cover;">
+						<div class="card-body" style="background-color: #333; color: white;">
+							<h5 class="card-title text-warning" style="font-size: 24px; font-weight: bold;">Fort Kochi</h5>
+							<p class="card-text" style="font-size: 15px;">Immerse yourself in the city’s colonial charm.</p>
+						</div>
+					</div>
+				</div>
+				<!-- Marine Drive Card -->
+				<div class="col-md-4 mb-4">
+					<div class="card" style="border: none;">
+						<img src="images/marine drive.jpeg" class="card-img-top" alt="Marine Drive" style="height: 350px; object-fit: cover;">
+						<div class="card-body" style="background-color: #333; color: white;">
+							<h5 class="card-title text-warning" style="font-size: 24px; font-weight: bold;">Marine Drive</h5>
+							<p class="card-text" style="font-size: 15px;">Enjoy scenic views along the backwaters.</p>
+						</div>
+					</div>
+				</div>
+				<!-- Mattancherry Palace Card -->
+				<div class="col-md-4 mb-4">
+					<div class="card" style="border: none;">
+						<img src="images/mattanchery palace.jpeg" class="card-img-top" alt="Mattancherry Palace" style="height: 350px; object-fit: cover;">
+						<div class="card-body" style="background-color: #333; color: white;">
+							<h5 class="card-title text-warning" style="font-size: 24px; font-weight: bold;">Mattancherry Palace</h5>
+							<p class="card-text" style="font-size: 15px;">Discover the rich history and culture of Kochi.</p>
+						</div>
+					</div>
+				</div>
 			</div>
 			
-			<div class="col-lg-6">
-			  <div class="room-wrap d-flex mb-4" style="box-shadow: 0 8px 20px rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden; transition: transform 0.3s ease;">
-				<a href="#" class="img" style="background-image: url('images/room-2.jpg'); width: 50%; background-size: cover; background-position: center;"></a>
-				<div class="half d-flex align-items-center p-4" style="background: linear-gradient(135deg, #5a5a5a 0%, #6b6b6b 100%); color: white;">
-				  <div class="text-center w-100">
-					<p class="star mb-2" style="font-size: 1.4rem;">
-					  <span class="fa fa-star text-warning"></span>
-					  <span class="fa fa-star text-warning"></span>
-					  <span class="fa fa-star text-warning"></span>
-					  <span class="fa fa-star text-warning"></span>
-					  <span class="fa fa-star text-warning"></span>
-					</p>
-					<h3 style="font-size: 2rem; font-weight: 700; text-shadow: 2px 2px 10px rgba(0,0,0,0.4);">Standard Room</h3>
-					<ul class="list-accomodation mb-4" style="list-style: none; padding: 0; color: #f0f0f0;">
-					  <li>Max: 3 Persons</li>
-					  <li>Size: 40 m²</li>
-					  <li>View: Garden View</li>
-					  <li>Bed: 1</li>
-					</ul>
-					<a href="room-single.html" class="btn btn-primary px-4 py-2" style="border-radius: 50px; background: #fff; color: #333; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: background 0.3s;">
-					  View Room Details
-					</a>
-				  </div>
+			
+			<!-- Book Your Stay Section -->
+			<div class="row justify-content-center mt-5">
+				<div class="col-md-6 text-center">
+					<h3 style="font-size: 28px; font-weight: bold; color: white;">Book Your Stay Today!</h3>
+					<p style="font-size: 15px; color: white;">Don’t miss the opportunity to stay at the best rent-a-flat in Kochi. Contact us now and experience comfort, convenience, and exceptional service during your time in Kochi.</p>
+					<a href="contact.html" class="btn btn-warning btn-lg" style="font-size: 18px; padding: 10px 30px;">Book Your Stay Now!</a>
 				</div>
-			  </div>
 			</div>
-		  </div>
 		</div>
-	  </section>
+	</section>
+	
 	  
-	  <section class="ftco-section testimony-section " style="background-color: black;">
-		<div class="container p-4" style="background-color: black;">
-		  <div class="row justify-content-center pb-5">
-			<div class="col-md-7 heading-section text-center">
-			  <h2 class="mb-4 text-white" style="font-size: 2.5rem; font-weight: 700; color: #333; text-shadow: 1px 1px 5px rgba(0,0,0,0.2);">
-				Happy Clients & Feedback
-			  </h2>
-			  <p style="font-size: 1.1rem; color:white;">
-				See what our clients are saying about their experience with us.
-			  </p>
-			</div>
-		  </div>
-		  <div class="row">
-			<div class="col-md-12">
-			  <div class="carousel-testimony owl-carousel">
-				<div class="item" style="text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; padding: 20px;">
-				  <div class="user-img mb-3" style="background-image: url('images/person_1.jpg'); width: 80px; height: 80px; border-radius: 50%; background-size: cover; background-position: center; margin: 0 auto;"></div>
-				  <p style="font-size: 1.1rem; color: white">Far far away, behind the word mountains...</p>
-				  <p class="name text-white" style="font-size: 1.2rem; font-weight: 600;">Racky Henderson</p>
-				</div>
-				<!-- Repeat similar blocks for other testimonials -->
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </section>
+	
 	  
 
 	  <section class="ftco-section" style="background-color: black;">
@@ -343,6 +345,142 @@
 			  </div>
 			</div>
 		  </section>
+
+		  <section class="ftco-section" style="background-color: black; color: white; padding: 50px 0;">
+			<div class="container">
+				<div class="row justify-content-center pb-5 mb-3">
+					<div class="col-md-7 text-center">
+						<h2 style="color: white; font-weight: bold; font-family: 'Poppins">Frequently Asked Questions (FAQ)</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 mx-auto">
+						<div class="faq-list">
+							<ul class="list-unstyled">
+								<!-- FAQ Item 1 -->
+								<li class="border-bottom py-3">
+									<button class="faq-question d-flex w-100 align-items-center bg-transparent border-0 text-white" 
+										style="font-size: 18px; padding: 15px 20px; transition: all 0.3s ease; background-color: #444; font-family: Arial, sans-serif;">
+										What types of accommodations are available at Stanley’s Residency?
+										<span class="faq-arrow ml-auto" style="font-size: 20px; cursor: pointer;">▼</span>
+									</button>
+									<p class="faq-answer mt-2" style="display: none; padding-left: 20px; color: #bbb;">We offer fully furnished flats and apartments for daily rent, catering to both premium and budget preferences.</p>
+								</li>
+		
+								<!-- FAQ Item 2 -->
+								<li class="border-bottom py-3">
+									<button class="faq-question d-flex w-100 align-items-center bg-transparent border-0 text-white" 
+										style="font-size: 18px; padding: 15px 20px; transition: all 0.3s ease; background-color: #444; font-family: Arial, sans-serif;">
+										Can I rent a flat for just one day?
+										<span class="faq-arrow ml-auto" style="font-size: 20px; cursor: pointer;">▼</span>
+									</button>
+									<p class="faq-answer mt-2" style="display: none; padding-left: 20px; color: #bbb;">Yes, you can rent a flat for even a single day.</p>
+								</li>
+		
+								<!-- FAQ Item 3 -->
+								<li class="border-bottom py-3">
+									<button class="faq-question d-flex w-100 align-items-center bg-transparent border-0 text-white" 
+										style="font-size: 18px; padding: 15px 20px; transition: all 0.3s ease; background-color: #444; font-family: Arial, sans-serif;">
+										Is Stanley’s Residency located near Amrita Hospital?
+										<span class="faq-arrow ml-auto" style="font-size: 20px; cursor: pointer;">▼</span>
+									</button>
+									<p class="faq-answer mt-2" style="display: none; padding-left: 20px; color: #bbb;">Yes, our location is conveniently near Amrita Hospital, making it ideal for medical tourists.</p>
+								</li>
+		
+								<!-- FAQ Item 4 -->
+								<li class="border-bottom py-3">
+									<button class="faq-question d-flex w-100 align-items-center bg-transparent border-0 text-white" 
+										style="font-size: 18px; padding: 15px 20px; transition: all 0.3s ease; background-color: #444; font-family: Arial, sans-serif;">
+										Are the flats suitable for families?
+										<span class="faq-arrow ml-auto" style="font-size: 20px; cursor: pointer;">▼</span>
+									</button>
+									<p class="faq-answer mt-2" style="display: none; padding-left: 20px; color: #bbb;">Absolutely. Our flats are spacious and fully equipped to accommodate families comfortably.</p>
+								</li>
+		
+								<!-- FAQ Item 5 -->
+								<li class="border-bottom py-3">
+									<button class="faq-question d-flex w-100 align-items-center bg-transparent border-0 text-white" 
+										style="font-size: 18px; padding: 15px 20px; transition: all 0.3s ease; background-color: #444; font-family: Arial, sans-serif;">
+										What amenities are included in the flats?
+										<span class="faq-arrow ml-auto" style="font-size: 20px; cursor: pointer;">▼</span>
+									</button>
+									<p class="faq-answer mt-2" style="display: none; padding-left: 20px; color: #bbb;">Our flats come with essential amenities such as fully furnished living spaces, kitchen facilities, air conditioning, and Wi-Fi.</p>
+								</li>
+		
+								<!-- FAQ Item 6 -->
+								<li class="border-bottom py-3">
+									<button class="faq-question d-flex w-100 align-items-center bg-transparent border-0 text-white" 
+										style="font-size: 18px; padding: 15px 20px; transition: all 0.3s ease; background-color: #444; font-family: Arial, sans-serif;">
+										How far is Stanley’s Residency from popular tourist attractions?
+										<span class="faq-arrow ml-auto" style="font-size: 20px; cursor: pointer;">▼</span>
+									</button>
+									<p class="faq-answer mt-2" style="display: none; padding-left: 20px; color: #bbb;">We are strategically located for easy access to major tourist spots like Fort Kochi, Marine Drive, and Cherai Beach.</p>
+								</li>
+		
+								<!-- FAQ Item 7 -->
+								<li class="border-bottom py-3">
+									<button class="faq-question d-flex w-100 align-items-center bg-transparent border-0 text-white" 
+										style="font-size: 18px; padding: 15px 20px; transition: all 0.3s ease; background-color: #444; font-family: Arial, sans-serif;">
+										Is there parking available?
+										<span class="faq-arrow ml-auto" style="font-size: 20px; cursor: pointer;">▼</span>
+									</button>
+									<p class="faq-answer mt-2" style="display: none; padding-left: 20px; color: #bbb;">Yes, we provide secure parking facilities for our guests.</p>
+								</li>
+		
+								<!-- FAQ Item 8 -->
+								<li class="border-bottom py-3">
+									<button class="faq-question d-flex w-100 align-items-center bg-transparent border-0 text-white" 
+										style="font-size: 18px; padding: 15px 20px; transition: all 0.3s ease; background-color: #444; font-family: Arial, sans-serif;">
+										How do I book a flat at Stanley’s Residency?
+										<span class="faq-arrow ml-auto" style="font-size: 20px; cursor: pointer;">▼</span>
+									</button>
+									<p class="faq-answer mt-2" style="display: none; padding-left: 20px; color: #bbb;">You can contact us directly via phone or through our website to book your stay.</p>
+								</li>
+		
+								<!-- FAQ Item 9 -->
+								<li class="border-bottom py-3">
+									<button class="faq-question d-flex w-100 align-items-center bg-transparent border-0 text-white" 
+										style="font-size: 18px; padding: 15px 20px; transition: all 0.3s ease; background-color: #444; font-family: Arial, sans-serif;">
+										Are the flats hygienic and secure?
+										<span class="faq-arrow ml-auto" style="font-size: 20px; cursor: pointer;">▼</span>
+									</button>
+									<p class="faq-answer mt-2" style="display: none; padding-left: 20px; color: #bbb;">Yes, we maintain high standards of cleanliness and security to ensure a comfortable stay.</p>
+								</li>
+		
+								<!-- FAQ Item 10 -->
+								<li class="border-bottom py-3">
+									<button class="faq-question d-flex w-100 align-items-center bg-transparent border-0 text-white" 
+										style="font-size: 18px; padding: 15px 20px; transition: all 0.3s ease; background-color: #444; font-family: Arial, sans-serif;">
+										Can I extend my stay if needed?
+										<span class="faq-arrow ml-auto" style="font-size: 20px; cursor: pointer;">▼</span>
+									</button>
+									<p class="faq-answer mt-2" style="display: none; padding-left: 20px; color: #bbb;">Yes, extensions are possible subject to availability. Please contact us in advance to confirm your extended stay.</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<script>
+			document.querySelectorAll('.faq-arrow').forEach(arrow => {
+				arrow.addEventListener('click', (event) => {
+					event.stopPropagation();
+					const answer = arrow.closest('li').querySelector('.faq-answer');
+					const isVisible = answer.style.display === 'block';
+					document.querySelectorAll('.faq-answer').forEach(a => a.style.display = 'none');
+					document.querySelectorAll('.faq-arrow').forEach(a => a.textContent = '▼');
+					if (!isVisible) {
+						answer.style.display = 'block';
+						arrow.textContent = '▲';
+					}
+				});
+			});
+		</script>
+		
+ 		
+		
 		  
 		  <footer class="footer text-light py-5" style="background-color: black;">
 			<div class="container">
