@@ -81,63 +81,36 @@
     </nav>
     <!-- END nav -->
     <!-- Sticky WhatsApp Icon -->
-    <a
-      href="https://wa.me/919037646534?text=Hello!%20I%20want%20to%20book%20a%20stay%20at%20Stanley's%20Residency."
-      target="_blank"
-      class="position-fixed"
-      style="
-        bottom: 20px;
-        right: 20px;
-        background-color: #25d366;
-        border-radius: 10%;
-        padding: 10px 15px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        z-index: 9999;
-        transition: transform 0.3s ease;
-        position: relative;
-        display: flex;
-        align-items: center;
-      "
-    >
-      <i
-        class="fab fa-whatsapp"
-        style="color: white; font-size: 30px; margin-right: 10px"
-      ></i>
-      <span style="color: white; font-size: 16px; font-weight: bold"
-        >Chat With Us !</span
-      >
-      <!-- Popup Text -->
-      <span
-        class="badge badge-dark"
-        style="
-          position: absolute;
-          bottom: 120%;
-          right: 50%;
-          transform: translateX(50%);
-          display: none;
-          font-size: 12px;
-          padding: 3px 10px;
-          background-color: #333;
-          color: white;
-          border-radius: 5px;
-        "
-        >Support!</span
-      >
-    </a>
-
-    <!-- Inline JavaScript for Hover Effect -->
-    <script>
-      const whatsappLink = document.querySelector("a");
-      const popupText = whatsappLink.querySelector("span");
-
-      whatsappLink.addEventListener("mouseenter", function () {
-        popupText.style.display = "block";
-      });
-
-      whatsappLink.addEventListener("mouseleave", function () {
-        popupText.style.display = "none";
-      });
-    </script>
+	<a
+	href="https://wa.me/919037646534?text=Hello!%20I%20want%20to%20book%20a%20stay%20at%20Stanley's%20Residency."
+	target="_blank"
+	class="position-fixed whatsapp-button"
+	style="
+	  bottom: 20px;
+	  right: 20px;
+	  background-color: #25d366;
+	  border-radius: 10%;
+	  padding: 10px 15px;
+	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	  z-index: 9999;
+	  display: flex;
+	  align-items: center;
+	  animation: floating 2s infinite ease-in-out;
+	"
+  >
+	<i class="fab fa-whatsapp" style="color: white; font-size: 30px; margin-right: 10px"></i>
+	<span style="color: white; font-size: 16px; font-weight: bold;">Support!</span>
+  </a>
+  
+  <!-- Floating Animation -->
+  <style>
+	@keyframes floating {
+	  0% { transform: translateY(0px); }
+	  50% { transform: translateY(-10px); }
+	  100% { transform: translateY(0px); }
+	}
+  </style>
+  
 
     <div
       class="hero-wrap js-fullheight"
@@ -528,8 +501,11 @@
 					<div class="col-md-9 text-center">
 						<h2>Ready to get started</h2>
 						<p class="mb-4">It’s safe to book online with us! Get your dream stay in clicks or drop us a line with your questions.</p>
-						<p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Book now</a> <a href="#" class="btn btn-white px-4 py-3">Contact us</a></p>
-					</div>
+						<p class="mb-0">
+							<a href="contact.html" class="btn btn-warning px-4 py-3">Book now</a> 
+							<a href="tel:+919037646534" class="btn btn-white px-4 py-3">Contact us</a>
+						  </p>
+					  </div>
 				</div>
 			</div>
 		</section>
